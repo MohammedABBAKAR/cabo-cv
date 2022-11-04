@@ -14,41 +14,37 @@ body {
   line-height: 22px;
   color: #555555;
 }
-p
-{
+p {
   font-size: 20px;
-  animation: shadow 7s ease-in-out infinite
+  animation: shadow 7s ease-in-out infinite;
 }
-@keyframes shadow
-{
-  0%{text-shadow: 3px 2px 3px #4267B2;}
-  50%{text-shadow: -3px 2px 3px #521E40;}
-  100%{text-shadow: 3px 2px 3px  #080504;}
+@keyframes shadow {
+  0% {
+    text-shadow: 3px 2px 3px #4267b2;
+  }
+  50% {
+    text-shadow: -3px 2px 3px #521e40;
+  }
+  100% {
+    text-shadow: 3px 2px 3px #080504;
+  }
 }
-
-
-
 
 .bold {
   font-weight: 700;
   font-size: 20px;
   text-transform: uppercase;
 }
-.mohammed-ahmed{
-    
-    
-    
+.mohammed-ahmed {
   width: 90%;
-  opacity: ;
-  transform:translateY(20px);
+
+  transform: translateY(20px);
   transition: 2s all ease-in-out;
 }
-.mhammed-appear{
-  
-  opacity: 1; 
- 
+.mhammed-appear {
+  opacity: 1;
+
   transform: translateY(0px);
- 
 }
 .semi-bold {
   font-weight: 500;
@@ -261,14 +257,14 @@ p
 .resume .resume_right .resume_hobby ul li:last-child:before {
   display: none;
 }
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-*{
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-} 
-nav{
+  font-family: "Poppins", sans-serif;
+}
+nav {
   display: flex;
   height: 80px;
   width: 100%;
@@ -278,20 +274,20 @@ nav{
   padding: 0 50px 0 100px;
   flex-wrap: wrap;
 }
-nav .logo{
+nav .logo {
   color: #fff;
   font-size: 35px;
   font-weight: 600;
 }
-nav ul{
+nav ul {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
 }
-nav ul li{
+nav ul li {
   margin: 0 5px;
 }
-nav ul li a{
+nav ul li a {
   color: #f2f2f2;
   text-decoration: none;
   font-size: 18px;
@@ -302,32 +298,32 @@ nav ul li a{
   transition: all 0.3s ease;
 }
 nav ul li a.active,
-nav ul li a:hover{
+nav ul li a:hover {
   color: #111;
   background: #fff;
 }
-nav .menu-btn i{
+nav .menu-btn i {
   color: #fff;
   font-size: 22px;
   cursor: pointer;
   display: none;
 }
-input[type="checkbox"]{
+input[type="checkbox"] {
   display: none;
 }
-@media (max-width: 1000px){
-  nav{
+@media (max-width: 1000px) {
+  nav {
     padding: 0 40px 0 50px;
   }
 }
 @media (max-width: 920px) {
-  nav .menu-btn i{
+  nav .menu-btn i {
     display: block;
   }
-  #click:checked ~ .menu-btn i:before{
+  #click:checked ~ .menu-btn i:before {
     content: "\f00d";
   }
-  nav ul{
+  nav ul {
     position: fixed;
     top: 80px;
     left: -100%;
@@ -338,30 +334,30 @@ input[type="checkbox"]{
     display: block;
     transition: all 0.3s ease;
   }
-  #click:checked ~ ul{
+  #click:checked ~ ul {
     left: 0;
   }
-  nav ul li{
+  nav ul li {
     width: 100%;
     margin: 40px 0;
   }
-  nav ul li a{
+  nav ul li a {
     width: 100%;
     margin-left: -100%;
     display: block;
     font-size: 20px;
     transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   }
-  #click:checked ~ ul li a{
+  #click:checked ~ ul li a {
     margin-left: 0px;
   }
   nav ul li a.active,
-  nav ul li a:hover{
+  nav ul li a:hover {
     background: none;
     color: cyan;
   }
 }
-.content{
+.content {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -372,24 +368,25 @@ input[type="checkbox"]{
   padding: 0 30px;
   color: #1b1b1b;
 }
-.content div{
+.content div {
   font-size: 40px;
   font-weight: 700;
 }
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-*{
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
-html,body{
+html,
+body {
   display: grid;
   height: 100%;
   place-items: center;
   background: #ecf0f3;
 }
-.icons a{
+.icons a {
   background: #ecf0f3;
   position: relative;
   height: 60px;
@@ -399,10 +396,9 @@ html,body{
   text-decoration: none;
   border-radius: 50%;
   transition: all 0.3s;
-  box-shadow: -3px -3px 7px #ffffff,
-              3px 3px 5px #ceced1;
+  box-shadow: -3px -3px 7px #ffffff, 3px 3px 5px #ceced1;
 }
-.icons a:hover:before{
+.icons a:hover:before {
   content: "";
   position: absolute;
   top: 0;
@@ -411,10 +407,9 @@ html,body{
   right: 0;
   border-radius: 50%;
   background: #ecf0f3;
-  box-shadow: inset -3px -3px 7px #ffffff,
-              inset 3px 3px 5px #ceced1;
+  box-shadow: inset -3px -3px 7px #ffffff, inset 3px 3px 5px #ceced1;
 }
-.icons a i{
+.icons a i {
   position: relative;
   z-index: 3;
   text-align: center;
@@ -423,41 +418,34 @@ html,body{
   font-size: 25px;
   line-height: 60px;
 }
-.icons a:hover i{
+.icons a:hover i {
   transform: scale(0.9);
 }
-.icons a.fb i{
-  color: #4267B2;
+.icons a.fb i {
+  color: #4267b2;
 }
-.icons a.twitter i{
-  color: #1DA1F2;
+.icons a.twitter i {
+  color: #1da1f2;
 }
-.icons a.insta i{
-  color: #E1306C;
+.icons a.insta i {
+  color: #e1306c;
 }
-.icons a.git i{
+.icons a.git i {
   color: #333;
 }
-.icons a.yt i{
+.icons a.yt i {
   color: #ff0000;
 }
-@media screen and (max-width:400px)
-{
-  nav-left: ;
+@media screen and (max-width: 400px) {
 }
-.mohammed-ahmed{
-    
-    
-    
+.mohammed-ahmed {
   width: 90%;
-  opacity: ;
-  transform:translateY(20px);
+
+  transform: translateY(20px);
   transition: 2s all ease-in-out;
 }
-.mhammed-appear{
-  
-  opacity: 1; 
- 
+.mhammed-appear {
+  opacity: 1;
+
   transform: translateY(0px);
- 
 }
